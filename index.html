@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador-Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+        <img class="img-logo" src="imagenes/logo.png" alt="Logo de alura">
+        <h1 class="title">Encriptador de Texto</h1>
+        </div>
+
+        <div class="left">
+            <textarea name="" id="input-text" class="text-input" cols="30" rows="10" placeholder="Inrese el texto que desees encriptaro desencriptar"></textarea>
+        </div>
+
+        <div class="right">
+            <img src="imagenes/image.png" alt="" class="imgDer" id="imgDer">
+            <p class="texto" id="text">Ningun mensaje fue econtrado</p>
+            <textarea  name="name" id="texto2" cols="80" rows="8" readonly>Ingrese el texto que desees encriptar o desencriptar</textarea>
+            <button type="button" id="copiar" onclick="copy()">Copiar</button>
+        </div>
+
+        <div class="left-button">
+            <i class="fa-solid fa-circle-info"></i> <p>Solo minusculas y sin acentos</p>
+             <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+             <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            
+        </div>
+        
+    </div>
+
+    
+    <script src="https://kit.fontawesome.com/e680da1b74.js" crossorigin="anonymous"></script>
+</body>
+</html>
